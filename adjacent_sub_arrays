@@ -1,0 +1,16 @@
+li=[1,9,4,2,8,2,8,3,6,1,6,12,34,16,14,2]
+le=len(li)
+mi=[]
+for i in range(2,le+1):
+    a,b=li[i-2:i]
+    if(a>b):
+        mi.append(a)
+    else:
+        mi.append(b)
+print(mi)
+    
+"""[1, 2]
+[2, 3]
+[3, 4]
+[4, 5]
+[5, 6] """
