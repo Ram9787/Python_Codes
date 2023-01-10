@@ -1,0 +1,5 @@
+li=[1,2,3,4,5]
+le=len(li)
+for i in range(le):
+    for j in range(i,le):
+        print(li[i:j+1])
